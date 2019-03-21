@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+html,body{
+  margin :  0px;
+}
+
+
+h1:first-of-type {
+    font-size: 36px;
+    color:white;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 0px;
+}
+
+h1 + h2 {
+    color: white;
+    margin: 0px;
+}
+
+div#cabecalho {
+    padding: 20px 0 13px 34px ;
+    background-color: #6175f0;
+  }
+
+
+  img[src*="unicorn"] {
+    width: 310px;
+    float: left;
+    margin-right: 13px;
+  }
+
+  h2 {
+    font-family: "Times New Roman";
+    font-size: 24px;
+    color: black;
+  }
+
+  h3{
+    font-size:18px;
+    font-family: Times,FreeSef;
+  }
+
+  div#hoje {
+      width: 405px;
+      float: right;
+      margin-right: 25px;
+      background-color: #f8cef7;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 30px;
+      padding-top: 20px;
+      text-align: center;
+      border: 1px solid #ff56fb;
+      box-sizing: border-box;
+  }
+
+  div#musica p:nth-of-type(2n+1), h2{
+    margin-left: 12px;
+  }
+  
+  div#musica  p:nth-of-type(2n){
+    padding-left: 46px;
+    margin-bottom: 0px;
+  }
+
+  div#musica {
+    margin-left: 12px;
+    margin-bottom: 20px;
+    clear : left;
+  }
+  
+  div#hoje > img {
+    height: 112px;
+	  width: 112px;
+  }
+
+  p {
+    font-family: "Arial";
+    font-size: 14px;
+  }
+
+  div#musica > p {
+    font-family: "Arial";
+    font-size: 14px;
+    white-space: pre;
+  }
+
+  .referencia {
+    font-style: italic;
+  } 
+
+div.destacado {
+  background-color: #c4caf3;
+  color: #004a79;
+
+}
